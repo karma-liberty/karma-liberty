@@ -7,7 +7,12 @@ div.i {  text-indent: 50px;}   /*  <div class="i">  */
 
 div.a {line-height: 1.6;}   /*  <div class="a">  */
 
-p.b, h1, h2, h4, b, strong, i, em, u, cite, var, tt, code, kbd, samp, img, span, table, object	{display: inline;}
+p.b, h1, h2, h4, b, strong, i, em, u, cite, var, tt, code, kbd, samp, img, span, table, object, iframe	{display: inline;}
+
+
+
+
+
 
 
 h1, h3, h4, b, h5	{font-weight: bolder} 
@@ -119,10 +124,38 @@ p  			{font-size:1.2em;}
 
 
 
-	/* Image align centre */
-img.center
+	/* ----------------------------  Image align centre ----------------------- */
+
+figure.center
  {
   display: block;
   margin-left: auto;
   margin-right: auto;
+}
+
+/* Display inline */
+
+figure {
+    width: 180px;
+    float: left;
+    margin: 0;
+    text-align: center;
+    padding: 0;
+    display: inline-block;
+}
+
+
+div {
+    text-align: center;
+}
+
+
+
+figure
+{
+    width: 180px;
+    float:left;
+    margin:1px;
+    text-align:center;
+    padding:1px;
 }

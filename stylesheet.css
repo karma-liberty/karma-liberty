@@ -34,7 +34,7 @@ h1			{font-size:1.4em;}
 p, p.b,  			{font-size:1.2em;}
 ul, ol 			{font-size:1.2em;}				
 
-p, ul, ol {font-family: "georgia";}
+p, ul, ol {font-family: "angsana";}
 
 /* +++++++++++++  Text Shadow +++++++++++++++++++++ */
 
@@ -120,7 +120,7 @@ img:hover {
     transform:scale(1.7);
 }
 
-p  			{font-size:1.2em;}
+
 
 
 
@@ -159,3 +159,5 @@ figure
     text-align:center;
     padding:1px;
 }
+
+p 			{font-size:1.5em;}

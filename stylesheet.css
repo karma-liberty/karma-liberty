@@ -26,14 +26,14 @@ p, ul, h2, ol, div.i		{color:#424242}
 p5			{color:#992500}
 
 
-h5			{font-size:2em;}
-h4			{font-size:1.8em;}
-h3 			{font-size:1.7em;}
-h2 			{font-size:1.7em;}
-h1			{font-size:1.6em;}
-p, p.b,  			{font-size:1.5em;}
-ul, ol 			{font-size:1.5em;}				
-span			{font-size:1.6em;}
+h5			{font-size:2rem;}
+h4			{font-size:1.8rem;}
+h3 			{font-size:1.7rem;}
+h2 			{font-size:1.7rem;}
+h1			{font-size:1.6rem;}
+p, p.b,  		{font-size:1.5rem;}
+ul, ol 			{font-size:1.5rem;}				
+span			{font-size:1.6rem;}
 
 p, ul, ol {font-family: "angsana";}
 

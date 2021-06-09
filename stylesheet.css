@@ -31,9 +31,8 @@ h4			{font-size:1.8rem;}
 h3 			{font-size:1.7rem;}
 h2 			{font-size:1.7rem;}
 h1			{font-size:1.6rem;}
-p, p.b,  		{font-size:1.5rem;}
-ul, ol 			{font-size:1.5rem;}				
-span			{font-size:1.6rem;}
+p, p.b,  			{font-size:1.5rem;}				
+span, td, ul, ol 		{font-size:1.7rem;}
 
 p, ul, ol {font-family: "angsana";}
 
@@ -112,11 +111,11 @@ div.static {position: absolute; left: 50px; top: 0px;}
 div.eltlogo {position: absolute; left: 45px; top: 40px;}
 
 	/* Image <img class="z" .....> */
-img {
+img.z {
     transition:transform 0.25s ease;
 }
 
-img:hover {
+img.z:hover {
     -webkit-transform:scale(3); /* or some other value */
     transform:scale(1.7);
 }
@@ -162,3 +161,33 @@ figure
 }
 
 p 			{font-size:1.6em;}
+
+/* Print instructions */
+
+@page  {
+         margin-left: 1.2 cm;
+         margin-right: 2.1 cm;
+      }
+
+@media print 
+{
+   @page
+   {
+    size: A4;
+    size: portrait;
+  }
+}
+
+@media print 
+{
+@page {
+    size: auto;
+    margin: 10%;
+  }
+}
+@media print 
+#header-widgets, nav, .sidebar, .content-ads, .make-comment, .author-bio, .heading, .related-posts, #footer,
+.site-title img, .logo
+{
+	display: none;
+}

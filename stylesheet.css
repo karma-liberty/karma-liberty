@@ -11,7 +11,9 @@ p.b, h1, h2, h4, b, strong, i, em, u, cite, var, tt, code, kbd, samp, img, span,
 
 
 
-
+div.i {
+  text-indent: 2em;
+}
 
 
 
@@ -21,18 +23,18 @@ p, h2, ul, ol {font-weight: 500;}
 
 
 	
-h1,  h3, h4, h5, h6  		{color:#353535}
-p, ul, h2, ol, div.i		{color:#424242}
+h1,  h3, h4, h5, h6  		{color:#575757}
+p, ul, h2, ol, div.i, table	{color:#424242}
 p5			{color:#992500}
 
 
 h5			{font-size:2rem;}
-h4			{font-size:1.8rem;}
+h4, p5, 			{font-size:1.8rem;}
 h3 			{font-size:1.7rem;}
-h2 			{font-size:1.7rem;}
-h1			{font-size:1.6rem;}
-p, p.b,  			{font-size:1.5rem;}				
-span, td, ul, ol 		{font-size:1.7rem;}
+h2, p6 			{font-size:1.7rem;}
+h1,			{font-size:1.7rem;}
+p, p.b, 			{font-size:1.5rem;}				
+span, td, ul, ol, table	{font-size:1.7rem;}
 
 p, ul, ol {font-family: "angsana";}
 
@@ -51,6 +53,14 @@ p4	{ text-shadow:	0 2px 0 #999,
 			0 7px 5px #302314; font-size:2em; color:#000000; 
 			font-weight: 600;}
 
+p5 {
+  color: #976c00;
+  text-shadow: 1px 1px 2px #c58c00, 0 0 25px #ffb705, 0 0 5px #c58c00;
+}
+p6 {
+  color: #424242;
+  text-shadow: 1px 1px 2px #c58c00, 0 0 25px #ffd15d, 0 0 5px #c58c00;
+}
 
 	
 h6	{ text-shadow: 2px 2px #c0c0c0; font-size:2em; color:#000000; font-weight: 600;}		
@@ -191,3 +201,12 @@ p 			{font-size:1.6em;}
 {
 	display: none;
 }
+
+
+
+/* -------------------------------- Image Shadow -------------------------- */
+  img.s {
+            filter: drop-shadow(5px 5px 5px #222);
+            
+           
+        }
